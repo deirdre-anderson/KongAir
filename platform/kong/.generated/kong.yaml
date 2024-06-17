@@ -44,7 +44,7 @@ plugins:
   tags:
   - platform-repo-managed
 services:
-- host: flights.kongair
+- host: flights.kongairz
   id: 0cef4d36-9c39-5ac2-9d9f-190d8ea8a252
   name: flights-service
   path: /
@@ -94,10 +94,10 @@ services:
     tags:
     - flight-data
     - platform-repo-managed
-  - id: a5023323-0468-5a77-baf2-13578fec61b0
+  - id: 1bed3355-cd70-5616-a3bc-b44a92eeacf0
     methods:
     - GET
-    name: flights-service_health_get
+    name: flights-service_gethealth
     paths:
     - ~/health$
     plugins: []
