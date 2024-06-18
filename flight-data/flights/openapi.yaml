@@ -53,7 +53,7 @@ paths:
                   status:
                     type: string
                     example: "unhealthy"
-  "/flights":
+  "/flights2":
     get:
       summary: Get KongAir planned flights
       description: |
