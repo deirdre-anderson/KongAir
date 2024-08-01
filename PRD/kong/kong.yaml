@@ -88,7 +88,7 @@ services:
     - GET
     name: flights-service_gethealth
     paths:
-    - ~/healthz$
+    - ~/healthzz$
     plugins: []
     protocols:
     - https
