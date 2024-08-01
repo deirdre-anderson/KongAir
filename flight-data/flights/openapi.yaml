@@ -20,7 +20,7 @@ tags:
   description: Everything about flights
 
 paths:
-  /healthz:
+  /healthzz:
     get:
       operationId: "gethealth"
       tags:
